@@ -1,0 +1,129 @@
+body {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.d-none {
+    display: none;
+}
+
+header .logo {
+    width: 140px;
+    height: 80px;
+    margin: 50px auto;
+}
+.page-title {
+    background: #6F2BFF;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* 자간 : 글자간격 조정 각자해보기*/
+}
+fieldset {
+    border: 0;
+}
+.login-field, .check_field {
+    max-width: 600px;
+    margin: 50px auto;
+    border: 1px solid #666;
+    padding: 30px;
+}
+.login-field h2, .check_field h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#u-id, #u-pw, [type=submit],[type=button] {
+    width: 100%;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+#order_num {
+    width: 80%;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+#guk_num, #mid_num, #last_num {
+    padding: 15px 0;
+    margin: 10px 0 ;
+}
+#guk_num {
+    width: 20%;
+}
+#mid_num {
+    width: 25%;
+}
+#last_num {
+    width: 25%;
+}
+[for =order_num], [for=guk_num] {
+    background-color:none;
+    display: inline-block;
+    width: 12%;
+    margin-right:2% ;
+}
+
+#u-id, #u-pw {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-indent: 20px;
+}
+[type=submit] {
+    background-color:  #6F2BFF;
+    color: white;
+    border: 0;
+    font-size: 19px;
+}
+
+.screen_out {
+    position: absolute;
+    left: 100%;
+    width: 0;
+    height: 0;
+}
+
+aside {
+    background-color: #fafafa;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    padding: 10px 0;
+    margin: 50px 0 0 0 ;
+}
+aside ul {
+    list-style-type: none;  /* 목록-스타일-종류 : 없음 (사각형,채워진 원, 빈원) */
+    display: flex;  /* 표시 : 플렉스(유연한 구조?) */
+    justify-content: center; /* 컨텐츠-정렬 : 가로 가운데 */
+}
+aside a {
+    color: #999999;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+aside ul li {
+    padding: 20px ;
+    display: inline-block;
+}
+footer {
+    text-align: center;
+}
+.contact {
+    font-size: 20px;
+    margin: 20px auto;
+}
+.address {
+    font-size: 13px;
+    color: #999999;
+    margin: 20px auto;
+}
+.owner {
+    font-size: 12px;
+    color: #999;
+    margin: 20px auto;
+}
+
+footer .logo2 {
+    width: 140px;
+    margin: 30px auto;
+}
